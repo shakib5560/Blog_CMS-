@@ -1,0 +1,13 @@
+# Python/Django
+__pycache__/
+*.pyc
+*.pyo
+.env/
+.venv/
+settings.py
+
+# Node.js/Next.js
+node_modules/
+.next/
+out/
+package-lock.json
