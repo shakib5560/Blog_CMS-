@@ -4,9 +4,9 @@ import uuid
 
 # Function to generate dynamic upload path for images
 def image_upload_path(instance, filename):
-    ext = filename.split('.')[-1]  # Get file extension
-    filename = f"{uuid.uuid4()}.{ext}"  # Generate a unique filename
-    return os.path.join('uploads/', filename)  # Save under 'uploads/' directory
+    ext = filename.split('.')[-1]  
+    filename = f"{uuid.uuid4()}.{ext}"  
+    return os.path.join('uploads/', filename) 
 
 class BannerTitle(models.Model):
     title = models.CharField(max_length=255, null=True, blank=True)

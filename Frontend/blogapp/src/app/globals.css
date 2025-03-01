@@ -5,6 +5,26 @@
 @tailwind utilities;
 
 
+/* styles/globals.css */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.4);
+  border-radius: 10px;
+  transition: background 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.6);
+}
+
 
 
 
@@ -36,6 +56,8 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
   }
+
+
 
   .dark {
     --background: 20 14.3% 4.1%;

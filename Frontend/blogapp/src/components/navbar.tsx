@@ -29,17 +29,17 @@ const Navbar: React.FC = () => {
                     {/* Logo */}
                     <div className="flex items-center space-x-4">
                         <div className="text-2xl font-semibold">
-                            <Link href="/">Brand</Link>
+                            <Link href="/"><span className='dark:text-primary text-primary-foreground'>Dev.</span>SHAKIB</Link>
                         </div>
                     </div>
 
                     {/* Centered Menu Items */}
                     <div className="flex-1 flex justify-center">
                         <div className="hidden sm:flex space-x-8">
-                            <Link href="/" className=" hover:text-[#FACC15] transition duration-300 ease-in-out text-lg p-2 rounded">Home</Link>
-                            <Link href="/about" className=" hover:text-[#FACC15] transition duration-300 ease-in-out text-lg p-2 rounded">About</Link>
-                            <Link href="/blog" className=" hover:text-[#FACC15] transition duration-300 ease-in-out text-lg p-2 rounded">Blog</Link>
-                            <Link href="/contact" className=" hover:text-[#FACC15] transition duration-300 ease-in-out text-lg p-2 rounded">Contact</Link>
+                            <Link href="/" className=" dark:hover:text-[#FACC15] hover:text-primary-foreground transition duration-300 ease-in-out text-lg p-2 rounded">Home</Link>
+                            <Link href="/about" className=" dark:hover:text-[#FACC15] hover:text-primary-foreground transition duration-300 ease-in-out text-lg p-2 rounded">About</Link>
+                            <Link href="/blog" className=" dark:hover:text-[#FACC15] hover:text-primary-foreground transition duration-300 ease-in-out text-lg p-2 rounded">Blog</Link>
+                            <Link href="/contact" className=" dark:hover:text-[#FACC15] hover:text-primary-foreground transition duration-300 ease-in-out text-lg p-2 rounded">Contact</Link>
                         </div>
                     </div>
 
